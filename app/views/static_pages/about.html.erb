@@ -1,2 +1,36 @@
-<h1>StaticPages#about</h1>
-<p>Find me in app/views/static_pages/about.html.erb</p>
+<%provide(:title,"About") %>
+<div class="about ">
+	<h1>Welcome to 	About section</h1>
+	<h3>All you need to use this chat is:</h3>
+		<div class="bs-example">
+	    <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+	    	<!-- Carousel indicators -->
+	        <ol class="carousel-indicators">
+	            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	            <li data-target="#myCarousel" data-slide-to="1"></li>
+	        </ol>   
+	        <!-- Wrapper for carousel items -->
+	        <div class="carousel-inner">
+	            <div class="active item">
+	                <h2>Sign Up</h2>
+	         		<div class="carousel-caption">
+	                  <p>Using sign up option or log in otterwise</p>
+	                </div>
+	            </div>
+	            <div class="item">
+	                <h2>Be nice</h2>
+	                <div class="carousel-caption">
+	                  <p>You better don`t be rude</p>
+	                </div>
+	            </div>
+	         </div>
+	        <!-- Carousel controls -->
+	        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+	            <span class="glyphicon glyphicon-chevron-left"></span>
+	        </a>
+	        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+	            <span class="glyphicon glyphicon-chevron-right"></span>
+	        </a>
+	    </div>
+		</div>
+</div>

@@ -1,0 +1,93 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+body{
+	padding-top: 60px;
+}
+
+section{
+	overflow: auto;
+}
+
+textarea{
+	resize: vertical;
+}
+
+.center{
+	text-align: center;
+	h1{
+		margin-bottom: 10px;
+	}
+}
+
+.about{
+	text-align: center;
+}
+/*   header   */
+
+#logo{
+	float: left;
+	margin-right: 10px;
+	font-size: 1.7em;
+	color: #faa;
+	font-weight: bold;
+	padding-top: 9px;
+	letter-spacing: -1px;
+	&:hover{
+		color: #aaa;
+		text-decoration: none;
+	};
+}
+/* About page */
+
+.about{
+	h2{
+    margin: 0;     
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}}
+.item{
+    background: #333;    
+    text-align: center;
+    height: 300px !important;
+}
+.carousel{
+    margin-top: 20px;
+}
+.bs-example{
+	margin: 20px;
+}
+
+/* Footer */
+
+footer {
+  
+  padding-top: 5px;
+  border-top: 1px solid $gray-light;
+  color: $gray-light;
+  a {
+    color: $gray;
+    &:hover {
+      color: $gray-darker;
+    }
+  }
+  position: fixed;
+  height: 40px;
+  bottom: 0;
+  width: 100%;
+
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: right;
+      margin-left: 15px;
+    }
+  }
+}
