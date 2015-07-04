@@ -1,0 +1,1 @@
+Rewrite chat applcation IPZ 
