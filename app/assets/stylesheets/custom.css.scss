@@ -1,7 +1,12 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-
+$gray-medium-light: #eaeaea;
+@mixin box_sizing {
+  -moz-box-sizing:    border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:         border-box;
+}
 body{
 	padding-top: 60px;
 }
@@ -30,7 +35,7 @@ textarea{
 	float: left;
 	margin-right: 10px;
 	font-size: 1.7em;
-	color: #faa;
+	color: $gray-medium-light;
 	font-weight: bold;
 	padding-top: 9px;
 	letter-spacing: -1px;
@@ -89,5 +94,27 @@ footer {
       float: right;
       margin-left: 15px;
     }
+  }
+}
+
+/* sign up*/
+
+input{
+  height: auto !important;
+}
+
+input, textarea, select{
+  border: 1px solid #bbb;
+  margin-bottom: 15px;
+  @include box_sizing;
+  width: 100%;
+}
+.signup{
+  text-align: center;
+}
+.row{
+  label{
+  display: block;
+  white-space:nowrap
   }
 }
