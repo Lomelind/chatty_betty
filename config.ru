@@ -14,6 +14,3 @@ bayeux = Faye::RackAdapter.new(
 				:database => 1
 			})
 run bayeux
-run Rails.application
-
-

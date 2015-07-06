@@ -2,7 +2,7 @@
 <script>
   $(function() {
     // Create a new client to connect to Faye
-    var client = new Faye.Client('https://chatipzlol.herokuapp.com/faye');
+    var client = new Faye.Client('https://chatipzlol.herokuapp.com/faye'); //Change for localhost/
 		
 		// Subscribe to the public channel
     var public_subscription = client.subscribe('/messages/public', function(data) {
