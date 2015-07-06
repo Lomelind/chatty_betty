@@ -4,6 +4,66 @@
 		"selected_items":
 		[
 			[
+				"fun",
+				"function"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"cha",
+				"chats"
+			],
+			[
+				"lin",
+				"link_to"
+			],
+			[
+				"se",
+				"session"
+			],
+			[
+				"n",
+				"new"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"f",
+				"f.	f.label (ffl)"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"fla",
+				"flash"
+			],
+			[
+				"tet",
+				"text-align"
+			],
+			[
+				"pas",
+				"password_confirmation"
+			],
+			[
+				"length",
+				"length"
+			],
+			[
+				"b",
+				"button	Tag"
+			],
+			[
 				"fol",
 				"following_ids"
 			],
@@ -14,10 +74,6 @@
 			[
 				"foll",
 				"following"
-			],
-			[
-				"pas",
-				"passive_relationship"
 			],
 			[
 				"follo",
@@ -34,10 +90,6 @@
 			[
 				"clas",
 				"class_name"
-			],
-			[
-				"b",
-				"belongs_to"
 			],
 			[
 				"hs",
@@ -92,10 +144,6 @@
 				"log_in_as"
 			],
 			[
-				"pa",
-				"password"
-			],
-			[
 				"up",
 				"update"
 			],
@@ -120,16 +168,8 @@
 				"self"
 			],
 			[
-				"se",
-				"session"
-			],
-			[
 				"op",
 				"options"
-			],
-			[
-				"ma",
-				"maximum"
 			],
 			[
 				"asse",
@@ -474,64 +514,48 @@
 			[
 				"to",
 				"file_to"
-			],
-			[
-				"file",
-				"file_from"
-			],
-			[
-				"fiel",
-				"file_from"
-			],
-			[
-				"li",
-				"line2"
-			],
-			[
-				"txt",
-				"txt_again"
-			],
-			[
-				"tab",
-				"tabby_cat"
-			],
-			[
-				"j",
-				"joke_evaluation"
-			],
-			[
-				"don",
-				"do_not"
-			],
-			[
-				"he",
-				"height_in_cm"
-			],
-			[
-				"my_",
-				"my_weight"
-			],
-			[
-				"my",
-				"my_height"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "config/routes.rb",
+			"file": "app/controllers/users_controller.rb",
 			"settings":
 			{
-				"buffer_size": 1667,
+				"buffer_size": 562,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/static_pages_controller.rb",
+			"file": "app/views/layouts/application.html.erb",
 			"settings":
 			{
-				"buffer_size": 92,
+				"buffer_size": 653,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/_header.html.erb",
+			"settings":
+			{
+				"buffer_size": 515,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/chats/room.html.erb",
+			"settings":
+			{
+				"buffer_size": 1341,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1536,
 				"line_ending": "Unix"
 			}
 		}
@@ -544,9 +568,13 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "ins",
+		"last_filter": "set",
 		"selected_items":
 		[
+			[
+				"set",
+				"Set Syntax: CSS"
+			],
 			[
 				"ins",
 				"Package Control: Install Package"
@@ -564,7 +592,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 496.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -587,11 +615,46 @@
 	[
 		"/home/va/workspace/chat_app",
 		"/home/va/workspace/chat_app/app",
-		"/home/va/workspace/chat_app/app/controllers",
-		"/home/va/workspace/chat_app/config"
+		"/home/va/workspace/chat_app/app/assets",
+		"/home/va/workspace/chat_app/app/views",
+		"/home/va/workspace/chat_app/app/views/chats",
+		"/home/va/workspace/chat_app/app/views/layouts",
+		"/home/va/workspace/chat_app/app/views/sessions",
+		"/home/va/workspace/chat_app/app/views/static_pages",
+		"/home/va/workspace/chat_app/app/views/users",
+		"/home/va/workspace/chat_app/config",
+		"/home/va/workspace/chat_app/config/environments",
+		"/home/va/workspace/chat_app/config/initializers",
+		"/home/va/workspace/chat_app/test/fixtures",
+		"/home/va/workspace/chat_app/test/integration"
 	],
 	"file_history":
 	[
+		"/home/va/workspace/chat_app/config.ru",
+		"/home/va/workspace/chat_app/Procfile",
+		"/home/va/workspace/chat_app/.gitignore",
+		"/home/va/workspace/chat_app/config/initializers/redis.rb",
+		"/home/va/workspace/chat_app/app/assets/stylesheets/custom.css.scss",
+		"/home/va/workspace/chat_app/config/routes.rb",
+		"/home/va/workspace/chat_app/app/views/layouts/application.html.erb",
+		"/home/va/workspace/chat_app/Gemfile",
+		"/home/va/workspace/chat_app/config/environments/development.rb",
+		"/home/va/workspace/chat_app/app/views/chats/room.html.erb",
+		"/home/va/workspace/chat_app/app/views/static_pages/home.html.erb",
+		"/home/va/workspace/chat_app/app/controllers/chats_controller.rb",
+		"/home/va/workspace/chat_app/app/controllers/sessions_controller.rb",
+		"/home/va/workspace/chat_app/app/helpers/sessions_helper.rb",
+		"/home/va/workspace/chat_app/app/models/user.rb",
+		"/home/va/workspace/chat_app/faye.ru",
+		"/home/va/workspace/chat_app/app/views/sessions/new.html.erb",
+		"/home/va/workspace/chat_app/app/controllers/application_controller.rb",
+		"/home/va/workspace/chat_app/app/views/users/new.html.erb",
+		"/home/va/workspace/chat_app/test/integration/users_signup_test.rb",
+		"/home/va/workspace/chat_app/config/environments/production.rb",
+		"/home/va/workspace/chat_app/test/models/user_test.rb",
+		"/home/va/workspace/chat_app/test/fixtures/users.yml",
+		"/home/va/workspace/chat_app/db/migrate/20150705110255_create_users.rb",
+		"/home/va/workspace/chat_app/db/migrate/20150705111817_add_index_to_users_email.rb",
 		"/home/va/workspace/sample_app/app/models/user.rb",
 		"/home/va/workspace/sample_app/app/controllers/microposts_controller.rb",
 		"/home/va/workspace/sample_app/app/helpers/sessions_helper.rb",
@@ -694,32 +757,7 @@
 		"/home/va/workspace/toy_app/app/models/micropost.rb",
 		"/home/va/workspace/toy_app/config/routes.rb",
 		"/home/va/workspace/toy_app/app/models/user.rb",
-		"/home/va/workspace/toy_app/app/controllers/users_controller.rb",
-		"/home/va/workspace/toy_app/app/controllers/application_controller.rb",
-		"/home/va/workspace/toy_app/Gemfile",
-		"/home/va/workspace/hello_app/app/controllers/application_controller.rb",
-		"/home/va/workspace/hello_app/config/routes.rb",
-		"/home/va/projects/ex47/lib/ex47/game.rb",
-		"/home/va/rubystuff/ex43.rb",
-		"/home/va/rubystuff/ex44.rb",
-		"/home/va/projects/ex47/ex47.gemspec",
-		"/home/va/projects/ex47/tests/test_ex47.rb",
-		"/home/va/projects/myapp.rb",
-		"/home/va/rubystuff/buncker.rb",
-		"/home/va/projects/ex47/lib/ex47.rb",
-		"/home/va/projects/ex47/Rakefile",
-		"/home/va/projects/skeleton/NAME.gemspec",
-		"/home/va/projects/skeleton/Rakefile",
-		"/home/va/projects/skeleton/tests/test_NAME.rb",
-		"/home/va/rubystuff/ex42.rb",
-		"/home/va/rubystuff/my_game.rb",
-		"/home/va/rubystuff/ex40.rb",
-		"/home/va/rubystuff/ex26.rb",
-		"/home/va/rubystuff/ex32.rb",
-		"/home/va/rubystuff/oop_test.rb",
-		"/home/va/rubystuff/ex39_test.rb",
-		"/home/va/rubystuff/ex39.rb",
-		"/home/va/rubystuff/dict.rb"
+		"/home/va/workspace/toy_app/app/controllers/users_controller.rb"
 	],
 	"find":
 	{
@@ -766,55 +804,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "config/routes.rb",
+					"file": "app/controllers/users_controller.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1667,
+						"buffer_size": 562,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								264,
-								264
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"file": "app/controllers/static_pages_controller.rb",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 92,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								92,
-								92
+								235,
+								235
 							]
 						],
 						"settings":
@@ -826,6 +828,127 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/layouts/application.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 653,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								457,
+								457
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "app/views/layouts/_header.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 515,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								332,
+								332
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/chats/room.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								244,
+								244
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1536,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								253,
+								253
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -859,7 +982,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.439615736505,
 			1.0
 		],
 		"rows":
@@ -907,7 +1030,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -915,7 +1038,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 167.0,
+	"side_bar_width": 273.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
