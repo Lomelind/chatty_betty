@@ -29,6 +29,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bcrypt', '~> 3.1.7'
 gem 'faye', '~> 1.1.1'
 gem 'redis', '~> 3.2.1'
+gem 'thin', '~> 1.6.3'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
