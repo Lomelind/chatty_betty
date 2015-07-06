@@ -1,14 +1,20 @@
  <% provide(:title,"Welcome to Chat") %>
 <div class="center">
-	<h1>Welcome to our chat application</h1>
-	<p>For now  it`ll stay just like this</p>
-
-	<div>
-		<form class="form-horizontal">
-			<textarea class="AreaLol">INput me</textarea>
-		</form>
-	</div>
-	<div>
-		<%= link_to "Sign Up", new_user_path, class: "btn btn-lg btn-success " %>
-	</div>
+	<%if logged_in?%>
+		<h1 class="center"> Yay, you managed to do it</h1>
+		<div class="video-container">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/QGJuMBdaqIw" frameborder="0" allowfullscreen></iframe>
+		</div>
+	<%else%>
+	<div class="container">
+		<div class="jumbotron">
+		<h1>Welcome to our chat application(Kostul`)</h1>
+		<p>For now  it`ll stay just like this</p>
+		<p>Sign Up for More :D</p>
+		<div>
+			<%= link_to "Sign Up", new_user_path, class: "btn btn-lg btn-success " %>
+		</div>
+		</div>
+		</div>
+	<%end%>
 </div>
