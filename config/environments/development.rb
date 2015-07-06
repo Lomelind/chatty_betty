@@ -35,7 +35,7 @@ Rails.application.configure do
   # Checks for improperly declared sprockets dependencies.
   # Raises helpful error messages.
   config.assets.raise_runtime_errors = true
-
+  ENV["REDISTOGO_URL"] = 'redis://redistogo:6f1fc6638e95cc8f2c6dd77629950b48@perch.redistogo.com:9186/'
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 end
